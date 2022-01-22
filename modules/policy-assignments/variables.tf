@@ -7,7 +7,7 @@
 
 
 variable "cust_scope" {
-    default = "/subscriptions/d4665e52-c01b-4bdf-aa11-3da2eac23394/resourceGroups/cmcaks-paas-poc-rgp-001/providers/Microsoft.ContainerService/managedClusters/cmcpoc-aks-007"
+    default = "/subscriptions/0c243b9b-004d-47b8-a72c-41cedf82ed47/resourcegroups/aks_terraform_rg/providers/Microsoft.ContainerService/managedClusters/terraform-aks"
 }
 variable "kubernetes_policyset_id" {
   type        = string
