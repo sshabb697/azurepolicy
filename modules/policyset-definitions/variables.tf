@@ -14,7 +14,7 @@ variable "builtin_policies_kubernetes" {
   type        = list
   description = "List of built-in policy definitions (display names) for the kubernetes policyset"
   default = [
-    "Do not allow privileged containers in Kubernetes cluster",
+    "Kubernetes cluster should not allow privileged containers",
     "Kubernetes cluster pod hostPath volumes should only use allowed host paths",
     "Kubernetes cluster pod FlexVolume volumes should only use allowed drivers",
     "Kubernetes cluster pods should only use allowed volume types",
