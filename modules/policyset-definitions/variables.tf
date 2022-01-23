@@ -1,4 +1,4 @@
-variable "policyset_definition_category" {
+/*variable "policyset_definition_category" {
   type        = string
   description = "The category to use for all PolicySet defintions"
   default     = "Custom"
@@ -28,4 +28,4 @@ data "azurerm_policy_definition" "builtin_policies_kubernetes" {
   count        = length(var.builtin_policies_kubernetes)
   display_name = var.builtin_policies_kubernetes[count.index]
 }
-
+*/

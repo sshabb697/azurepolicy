@@ -1,6 +1,10 @@
 
 
-resource "azurerm_policy_set_definition" "kubernetes" {
+data "azurerm_policy_set_definition" "kubernetes" {
+  display_name = "Kubernetes custom Intiative test"
+}
+
+/*resource "azurerm_policy_set_definition" "kubernetes" {
 
   name         = "test123" # custom intoative name
   policy_type  = "Custom"
@@ -29,7 +33,7 @@ METADATA
       reference_id         = policy_definition_reference.value["id"]
     }
   }
-}
+}*/
 
 
 
