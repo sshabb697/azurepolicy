@@ -2,7 +2,7 @@
 
 resource "azurerm_policy_set_definition" "kubernetes" {
 
-  name         = "kubernetes" # custom intoative name
+  name         = "test123" # custom intoative name
   policy_type  = "Custom"
   display_name = "test123"
   description  = "Contains common kubernetes policies"
